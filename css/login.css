@@ -1,0 +1,79 @@
+@charset "utf-8";
+body{
+    font-size:18px;
+    font-family:"微软雅黑","langting sc";
+    padding:0;
+    margin:0;
+    border:0;
+    background-color:#eee;
+}
+.header{
+    max-width:1000px;
+    margin:0 auto;
+}
+.header{
+    height:85px;
+    display:block;
+}
+.banner{
+    width:100%;
+    height:470px;
+    background:#fd7a72;
+}
+.banner_main{
+    max-width:1000px;
+    margin:0 auto;
+    height:470px;
+}
+.banner_left{
+    float:left;
+    display:block;
+    position:relative;
+}
+.banner_right{
+    float:right;
+    width:100%;
+    max-width:360px;
+    height:420px;
+    position:absolute;
+    margin-top:20px;
+    margin-left:0;
+    background:#f8f8f8;
+    right: 20%;
+    padding:10px 20px;
+}
+.banner_right{
+    text-align:center;
+    padding:8px;
+    font-weight:600;
+}
+.clear{
+    clear:both;
+}
+.banner_login{
+    background:#fff;
+    width:300px;
+    margin:5px auto;
+}
+.user_name input,.user_password input{
+    width:280px;
+    height:40px;
+    text-align:center;
+    margin:5px;
+}
+.banner_check{
+    float:left;
+    madding:0;
+    margin:0;
+    font-size:12px;
+    font-weight:normal;
+    margin-left: 35px;
+}
+.banner_btn{
+    width:200px;
+    height:40px;
+    text-align:center;
+    background:blue;
+    margin-top:50px;
+    margin-left:75px;
+}

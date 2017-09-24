@@ -1,0 +1,126 @@
+@charset "utf-8";
+/*公共*/
+html,body,div{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+/*头部*/
+.logo-boxtittle,.res-main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/*banner*/
+.res-banner{
+    width:100%;
+    height:470px;
+    background-color:#fd7a72;
+}
+.res-main{
+    max-width:1000px;
+    margin:0 auto;
+    height:470px;
+    position:relative;
+}
+.login-banner-bg{
+    display:block;
+    float:left;
+}
+.login-box,.login-box2{
+    width:100%;
+    max-width:360px;
+    height:430px;
+    position:absolute;
+    margin-top:20px;
+    margin-left:0;
+    background:#f8f8f8;
+    right:2%;
+}
+.am-nav-tabs.am-nav-justify{
+    border-bottom:0;
+}
+.am-nav-tabs{
+    border-bottom:1px solid #ddd;
+}
+.am-nav{
+    padding:0;
+    margin-bottom:0;
+    list-style:none;
+
+}
+.am-nav-tabs.am-nav-justify li{
+    padding:5px;
+}
+.am-nav-justify{
+    flex:none;
+}
+.am-nav-tabs>li{
+    margin-bottom:-1px;
+    float:left;
+    margin:2px 45px;
+    font-weight:bold;
+}
+.am-nav>li>a{
+    display:block;
+    position:relative;
+    text-decoration:none;
+}
+hr{
+    width:80%;
+}
+a:hover{
+    cursor:pointer;
+}
+.am-nav-justify>li>a{
+    float:left;
+    display:inline-block;
+    border-bottm:1px solid #ddd;
+    margin-rigth:0;
+}
+.am-nav-justify{
+    display:inline-block;
+}
+.am-tabs-bt{
+    margin:10px auto;
+    border:1px solid #dddddd;
+    border:0px;
+}
+.am-tabs-panel{
+    position:relative;
+    visibility:visible;
+}
+.user-regist {
+    position: relative;
+}
+.user-set input{
+    width:300px;
+    height:35px;
+    font-size:20px;
+    margin-bottom:5px;
+    margin-left:25px;
+    text-align:center;
+}
+}
+.am-icon-envelopes-o{
+    width:20px;
+    height:20px;
+}
+.login-link{
+    margin-left:25px;
+}
+.user-login{
+    width:300px;
+    height:50px;
+    font-size:20px;
+    padding:5px;
+    font-weight:bold;
+    margin-top:30px;
+    margin-left:25px;
+    background-color:blue;
+    border:0;
+
+
+}
